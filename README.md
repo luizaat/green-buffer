@@ -1,27 +1,35 @@
-# MyApp
+# Green Buffer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+Os guardiões do multiverso agora tem um sistema para gerenciar seus membros!!
 
-## Development server
+A Avivatec foi contratada pelos Guardiões do Universo para criar um sistema de gestão das tropas dos lanternas verdes e seus setores. É de conhecimento comum que o universo foi dividido em 3600 setores e estes divididos entre todos os lanternas verdes. O sistema deve ter permitir o cadastro de um lanterna (nome, idade e planeta natal) e vincula-lo a um ou mais setores.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Tela 1 - Grid com todos os lanternas verdes (com paginação) e seu respectivo setor;
+Tela 2 - Ao clica em um card do grid, o sistema deve exibir o formulário com o nome, idade, planeta natal e setor a qual ele é responsável. Também será possível salvar as alterações;
+Tela 3 - Essa tela é extra e opcional, na tela 1 adicionar botão "cadastrar lanterna" ao clica-lo deve abrir a tela 2 sem nenhum campo preenchido. Essa tela deve permitir o cadastro de um lanterna novo.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+TIPS: 
 
-## Build
+- O uso de foto para identificação de um lanterna, seu setor e planeta são opcionais
+- Use reactforms
+- Use Sass
+- Use Angular material
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## O projeto
 
-## Running unit tests
+ - Angular Material
+ - Padrão de nomenclatura CSS BEM.
+ - Utilizado angular forms para o modal de editar e adicionar heróis.
+ - Persistência de dados utilizando o local storage.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Notas sobre o desenvolvimento
 
-## Running end-to-end tests
+O meu maior desafio para o desenvolvimento do projeto foi a grande diferença de estrutura entre o Angular e o Vue (framework que atualmente utilizo), também foi meu primeiro contato com typescript que por sua vez se revelou algo que quero me aprofundar e aprender mais sobre. O desenvolvimento foi divertido e aprendi muito com o processo.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Rodando o projeto
 
-## Further help
+- Clone: git clone
+- Instalando dependencias: npm install
+- Angular CLI: ng serve
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
