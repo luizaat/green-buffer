@@ -1,0 +1,40 @@
+<div class="hero-container">
+  <div class="hero-container--label">
+    <h1>List of guardians of the multiverse</h1>
+    <button mat-button (click)="openHeroModal()" class="view-button">Create Hero</button>
+  </div>
+  <mat-grid-list cols="16" rowHeight="20rem">
+    <mat-grid-tile
+      [colspan]="breakpointValue"
+      *ngFor="let hero of paginate(heroes, perPage, page)"
+      class="hero-tile"
+    >
+      <mat-card role="group" class="hero-card">
+        <mat-card-header class="hero-header">
+          <img
+            mat-card-avatar
+            [src]="hero.avatar"
+            class="hero-header--avatar"
+          />
+          <mat-card-title class="hero-name">{{ hero.name }}<mat-card-subtitle>Idade {{hero.age}}</mat-card-subtitle></mat-card-title>
+          <mat-card-subtitle>Setor: {{hero.sector}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content class="hero-body">
+          <p class="hero-description">
+            {{ hero.description }}
+          </p>
+        </mat-card-content>
+        <mat-card-actions class="card-actions">
+          <button mat-button (click)="openHeroModal(hero)" class="view-button">Edit Hero</button>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+  <mat-paginator #paginator
+              [length]="heroesTotal"
+              [pageSize]="perPage"
+              [pageSizeOptions]="[4, 8, 12]"
+              (page)="changePage($event)"
+              >
+  </mat-paginator>
+</div>

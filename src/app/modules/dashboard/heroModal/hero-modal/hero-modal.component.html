@@ -1,0 +1,74 @@
+<div [formGroup]="heroForm" mat-dialog-content class="modal-hero">
+  <div class="modal-hero--header">
+    <img [src]="hero.avatar" class="modal-hero--avatar" />
+    <h1 mat-dialog-title class="modal-hero--name">{{ hero.name }}</h1>
+    <p class="modal-hero--age">Age {{ hero.age }}</p>
+  </div>
+  <div class="modal-hero--body">
+    <mat-form-field>
+      <input formControlName="name" matInput placeholder="Hero's name" />
+    </mat-form-field>
+    <div
+      *ngIf="name?.invalid && (name?.dirty || name?.touched)"
+      class="alert alert-danger"
+    >
+      <div *ngIf="name?.errors?.required">Name is required.</div>
+    </div>
+    <mat-form-field>
+      <textarea
+        formControlName="description"
+        matInput
+        placeholder="Hero's description"
+      ></textarea>
+    </mat-form-field>
+    <div
+      *ngIf="description?.invalid && (description?.dirty || description?.touched)"
+      class="alert alert-danger"
+    >
+      <div *ngIf="description?.errors?.required">Description is required.</div>
+    </div>
+    <mat-form-field>
+      <input
+        formControlName="home_planet"
+        matInput
+        placeholder="Hero's home planet"
+      />
+    </mat-form-field>
+    <div
+      *ngIf="home_planet?.invalid && (home_planet?.dirty || home_planet?.touched)"
+      class="alert alert-danger"
+    >
+      <div *ngIf="home_planet?.errors?.required">Home planet is required.</div>
+    </div>
+    <mat-form-field>
+      <input formControlName="sector" matInput placeholder="Hero's sector" />
+    </mat-form-field>
+    <div
+      *ngIf="sector?.invalid && (sector?.dirty || sector?.touched)"
+      class="alert alert-danger"
+    >
+      <div *ngIf="sector?.errors?.required">Sector is required.</div>
+    </div>
+    <mat-form-field>
+      <input formControlName="avatar" matInput placeholder="URL" />
+    </mat-form-field>
+    <div
+      *ngIf="avatar?.invalid && (avatar?.dirty || avatar?.touched)"
+      class="alert alert-danger"
+    >
+      <div *ngIf="avatar?.errors?.required">Avatar is required.</div>
+    </div>
+    <mat-form-field>
+      <input formControlName="age" matInput placeholder="Hero's age" />
+    </mat-form-field>
+    <div
+      *ngIf="age?.invalid && (age?.dirty || age?.touched)"
+      class="alert alert-danger"
+    >
+      <div *ngIf="age?.errors?.required">Age is required.</div>
+    </div>
+  </div>
+</div>
+<div mat-dialog-actions class="modal-hero--actions">
+  <button mat-button (click)="submit()" class="modal-hero--button">Save</button>
+</div>

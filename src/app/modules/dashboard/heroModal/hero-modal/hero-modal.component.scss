@@ -1,0 +1,36 @@
+.modal-hero{
+    .modal-hero--header{
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .modal-hero--avatar{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            flex-shrink: 0;
+            object-fit: cover;
+        }
+        .modal-hero--name{
+            margin-bottom: 0;
+            text-align: center;
+        }
+        .modal-hero--age{
+            text-align: center;
+            color: rgba(0,0,0,.54);
+        }
+    }
+    .modal-hero--body{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.modal-hero--actions {
+    display: flex;
+    justify-content: center;
+  .modal-hero--button {
+    background-color: #69f0ae;
+    color: white;
+  }
+}

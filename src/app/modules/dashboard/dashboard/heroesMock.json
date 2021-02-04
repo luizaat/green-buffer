@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Alan Scott",
+    "avatar": "assets/images/alan-scott.jpg",
+    "description": "Thousands of years ago, a mystical green flame fell to Earth in ancient China as a meteor. A voice in the flame predicted that it would act three times: once to bring death, once to bring life, and once to bring power. For the first prophecy, a lamp-maker crafted the green metal of the meteor into a lamp. In fear and as punishment for what they thought sacrilege, the local villagers killed him, only to be destroyed by a sudden burst of the green flame. For the second, in modern times, the lamp came into the hands of a patient of a mental institution who fashioned the lamp into a modern train lantern. The green flame restored his sanity and gave him a new life. For the third, by 1940, after having already fulfilled the first two-thirds of this prophecy, the lantern fashioned from the meteoric metal fell into the hands of Alan Scott, a young railroad engineer. Following a railroad bridge collapse, the flame instructs Scott in how to fashion a ring from its metal, to give him fantastic powers as the superhero Green Lantern. He adopts a colorful costume of red, purple, brown, yellow, and green. He becomes a crimefighter in his first adventure, defeating the crooks who caused the accident. He also discovers his powers' weakness to wood when he is bludgeoned with a club. Alan is a founding member of the Justice Society of America, and is its second chairman.",
+    "sector": "1243",
+    "age": 81,
+    "home_planet": "Earth"
+  },
+  {
+    "id": 2,
+    "name": "Hal Jordan",
+    "avatar": "assets/images/hal-jordan.png",
+    "description": "Hal Jordan, also known as Green Lantern, is a fictional superhero appearing in American comic books published by DC Comics. The character was created in 1959 by writer John Broome and artist Gil Kane, and first appeared in Showcase #22 (October 1959). Hal Jordan is a reinvention of the previous Green Lantern who appeared in 1940s comic books as the character Alan Scott.",
+    "sector": "1532",
+    "age": 60,
+    "home_planet": "Earth"
+  },
+  {
+    "id": 3,
+    "name": "Guy Gardner",
+    "avatar": "assets/images/guy-gardner.jpg",
+    "description": "Guy Gardner is a fictional comic book superhero appearing in books published by DC Comics, usually in books featuring the Green Lantern family of characters, and for a time (late 1980s through mid 1990s) was also a significant member of the Justice League family of characters. He usually appears in books featuring the Green Lantern Corps, an intergalactic police force in which Gardner has usually been depicted as a member. Gardner's original design was based on actor Martin Milner.",
+    "sector": "4312",
+    "age": 52,
+    "home_planet": "Earth"
+  },
+  {
+    "id": 4,
+    "name": "John Stewart",
+    "avatar": "assets/images/jhon-stewart.jpg",
+    "description": "John Stewart, one of the characters known as Green Lantern, is a fictional superhero appearing in American comic books published by DC Comics and was the first African-American superhero to appear in DC Comics. The character was created by Dennis O'Neil and Neal Adams, and first appeared in Green Lantern (Volume 2) #87 (December 1971/January 1972). Stewart's original design was based on actor Sidney Poitier.",
+    "sector": "1243",
+    "age": 43,
+    "home_planet": "Earth"
+  },
+  {
+    "id": 5,
+    "name": "Kyle Rayner",
+    "avatar": "assets/images/kyle-rayner.png",
+    "description": "Kyle Rayner (/ˈreɪnər/) is a fictional superhero appearing in American comic books published by DC Comics. The character is depicted as being associated with the Green Lantern Corps, an extraterrestrial police force of which he has been a member.",
+    "sector": "4321",
+    "age": 25,
+    "home_planet": "Earth"
+  },
+  {
+    "id": 6,
+    "name": "Simon Baz",
+    "avatar": "assets/images/simon-baz.jpg",
+    "description": "Simon Baz is a fictional superhero appearing in books published by DC Comics, created by writer Geoff Johns and artist Doug Mahnke. Baz is an officer of the Green Lantern Corps, an extraterrestrial police force. The character made his debut in 2012 following DC's 2011 company-wide relaunch as part of its Green Lantern story arc Rise of the Third Army, in which he replaces Silver Age hero Hal Jordan as the Green Lantern of Earth's sector.",
+    "sector": "4232",
+    "age": 34,
+    "home_planet": "Earth"
+  },
+  {
+    "id": 7,
+    "name": "Jessica Cruz",
+    "avatar": "assets/images/jessica-cruz.jpg",
+    "description": "Jessica Cruz is a fictional superhero appearing in American comic books published by DC Comics. Created by Geoff Johns and Ethan Van Sciver, she is a member of the Green Lantern Corps and the Justice League. Her first full appearance takes place in Justice League #31 (August 2014), which is also her first cover appearance. Cruz's original design was based on the actress Penélope Cruz.",
+    "sector": "1243",
+    "age": 23,
+    "home_planet": "Earth"
+  },
+  {
+    "id": 8,
+    "name": "Jade",
+    "avatar": "assets/images/jade.png",
+    "description": "Jade is a founding member of Infinity, Inc. She has worked with the Justice League and the Justice Society of America. She is also a member and leader of the Outsiders. After being given a power ring (a spare one), she joined the Green Lantern Corps. The Green Lantern Corps had been resurrected and Jade was the first female Green Lantern from Earth.",
+    "sector": "43123",
+    "age": 25,
+    "home_planet": "Earth"
+  },
+  {
+    "id": 9,
+    "name": "Arisia Rrab",
+    "avatar": "assets/images/arisia-rrab.jpg",
+    "description": "Arisia Rrab is a fictional superheroine in appearing in publications by the American publisher DC Comics, usually those featuring the Green Lantern Corps, an intergalactic police force of which she is a member. Arisia is a humanoid alien with golden-yellow skin, hair and eyes, and has pointed, elven ears.",
+    "sector": "3213",
+    "age": 43,
+    "home_planet": "Graxos VI"
+  },
+  {
+    "id": 10,
+    "name": "Katma Tui",
+    "avatar": "assets/images/katma-tui.png",
+    "description": "Katma Tui is a comic book superhero, an extraterrestrial from the planet Korugar, and a member of the intergalactic police force known as the Green Lantern Corps. She is a Green Lantern successor of the supervillain Sinestro and predecessor of Sinestro's daughter Soranik Natu.",
+    "sector": "3213",
+    "age": 43,
+    "home_planet": "Korugar"
+  }
+]

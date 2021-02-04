@@ -1,0 +1,8 @@
+<p>{{user.name}}</p>
+<div *ngIf="isFetching">
+    <p>Carregando saporra</p>
+</div>
+<div *ngFor="let anime of animes">
+    <p>{{anime.name}}</p>
+    <p *ngIf="anime.author">{{anime.author?.name}}</p>
+</div>
